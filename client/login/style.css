@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+html *{
+	margin: 0;
+	padding: 0;
+	font-family: Microsoft Yahei;
+	font-size: 14px;
+}
+
+body{
+	text-align: center;
+	background: #f1f1f1;
+	width: 100%;
+	height: 100%;
+}
+
+#login{
+	margin: 0 auto;
+	margin-top: 5%;
+	width: 15%;
+	height: 40%;
+	border: 1px solid #ccc;
+	padding: 10px 0;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #ccc;
+}
+
+#login h1{
+	font-size: 30px;
+	color: red;
+}
+
+#login div{
+	margin-top: 20px;
+}
+
+#login label{
+	display: block;
+	font-size: 16px;
+	margin-bottom: 5px;
+	text-align: left;
+	padding-left: 20px;
+}
+
+#login input[type=text],
+#login input[type=password]{
+	width: 80%;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding-left: 15px;
+}
+
+#login input[type=checkbox]{
+	width: 15px;
+	height: 15px;
+	border-radius: 1px;
+	margin-left: 20px;
+	margin-top: 3px;
+	float: left;
+}
+
+#login #unsuccessful{
+	display: block;
+	color: red;
+	margin-top: 10px;
+}
+
+#login #remember-password-font{
+	float: left;
+	margin-left: 3px;
+}
+
+#login button[type=submit]{
+	width: 30%;
+	height: 30px;
+	margin: 0 auto;
+	cursor: pointer;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+#login button[type=submit]:active{
+	position: relative;
+	left: 1px;
+	top: 1px;
+}
+
+#login #link{
+	float: right;
+	margin-right: 20px;
+}
+
+
+#login a{
+	margin-left: 5px;
+}

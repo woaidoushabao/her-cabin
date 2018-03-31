@@ -1,0 +1,101 @@
+body, #parent{
+	width: 100%;
+	height: 100%;
+	font-size: 1em;
+}
+#header{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 100% - 80px;
+	left: 0;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	background: #4a86e8;
+	min-width: 1500px;
+	color: #ffffff;
+}
+#website-title{
+	width: 200px;
+	float: left;
+	font-size: 2em;
+}
+#navigation a{
+	margin: 0 5%;
+	font-size: 1.5em;
+	text-decoration: none;
+	cursor: pointer;
+	color: #ffffff;
+}
+#navigation a:hover{
+	background-color: #D1D1D1;
+}
+#language{
+	width: 200px;
+	float: right;
+}
+#language select{
+	cursor: pointer;
+}
+#other{
+	position: absolute;
+	top: 80px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	min-height: 800px;
+	min-width: 1500px;
+}
+#other-left{
+	position: absolute;
+	top: 0;
+	right: 100% - 200px;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+}
+#other-middle{
+	position: absolute;
+	top: 0;
+	right: 200px;
+	bottom: 0;
+	left: 200px;
+}
+#other-middle-header{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 100% - 50px;
+	left: 0;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+#other-middle-middle{
+	position: absolute;
+	top: 50px;
+	right: 0;
+	bottom: 50px;
+	left: 0;
+	background-color: #F1CECB;
+	border: 1px solid #dddddd;
+}
+#other-middle-footer{
+	position: absolute;
+	top: 100% - 50px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+#other-right{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 100% - 200px;
+	width: 200px;
+}

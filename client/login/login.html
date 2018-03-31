@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>帅的一批</title>
+	<link rel="stylesheet" href="style.css" />
+	<script src="login.js"></script>
+	<script src="../check.js"></script>
+	<script src="../const.js"></script>
+</head>
+<body>
+	<div id="login" onsubmit="return checkForm()">
+		<div>
+			<h1>登录</h1>
+		</div>
+
+		<form action="../index.html" method="post">	
+			<div>
+				<label>用户名:</label>
+				<input type="text" name="username" id="username" />
+			</div>
+
+			<div>
+				<label>密码:</label>
+				<input type="password" name="password" id="password" />
+			</div>	
+
+			<span id="unsuccessful"></span>
+
+			<div>
+				<input type="checkbox" />
+				<span id="remember-password-font">记住密码</span>
+				<span id="link">
+					<a href="">忘记密码?</a>
+					<a href="../register/register.html">注册</a>
+				</span>
+			</div>
+
+			<div>
+				<button type="submit">登录</button>
+			</div>	
+		</form>
+	</div>
+</body>
+</html>
